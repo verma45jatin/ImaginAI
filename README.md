@@ -1,6 +1,6 @@
 # 🚀 IMAGINAI
 
-Welcome to IMAGINAI, where innovation meets imagination! We are excited to present a comprehensive guide on building a state-of-the-art IMAGINAI Platform equipped with five cutting-edge AI tools: Chatbot, Image Generation, Music Generation, Video Generation, and Code Generation.
+Welcome to IMAGINAI, where innovation meets imagination! We are excited to present a comprehensive guide on building a state-of-the-art IMAGINAI Platform equipped with five cutting-edge AI tools: **Chatbot, Image Generation, Music Generation, Video Generation, and Code Generation.**
 
 ## 🔧 Next.js 14 App Router: A Game-Changer
 
@@ -10,11 +10,11 @@ IMAGINAI is built using Next.js 14, integrating Stripe for seamless billing, har
 
 In addition to its powerful core functionalities, IMAGINAI leverages a rich palette of web development technologies:
 
-- React
-- Tailwind CSS
-- Prisma
-- MySQL
-- Clerk
+**- React**
+**- Tailwind CSS**
+**- Prisma**
+**- MySQL**
+**- Clerk**
 
 # Features
 
