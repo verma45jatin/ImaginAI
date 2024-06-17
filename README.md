@@ -44,7 +44,7 @@ To get started with IMAGINAI, follow these steps:
 1. **Ensure Requirements**: Verify that Git and NodeJS (version 18.x.x) are installed on your system.
 2. **Clone the Repository**: Clone this repository to your local machine.
    ```sh
-   git clone https://github.com/aftabrehan/jarvis-ai.git
+   git clone https://github.com/verma45jatin/ImaginAI
    ```
 3. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the necessary environment variables as shown in the example above.
    
