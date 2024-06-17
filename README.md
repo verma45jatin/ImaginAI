@@ -1,82 +1,72 @@
-**🚀 IMAGINAI**
-We are thrilled to introduce our comprehensive guide on building a **state-of-the-art IMAGINAI** Platform with five AI tools: **Chatbot**, **Image Generation**, **Music Generation**, **Video Generation**, and **Code Generation**. 
+# 🚀 IMAGINAI
 
-**🔧 Next.js 14 App Router: A Game-Changer**
-Built using Next.js 14, it integrates Stripe for seamless billing, leverages OpenAI and ReplicateAI for AI functionalities, and uses Crisp for customer engagement, Aiven for data infrastructure, and Prisma for database management. 
+Welcome to IMAGINAI, where innovation meets imagination! We are excited to present a comprehensive guide on building a state-of-the-art IMAGINAI Platform equipped with five cutting-edge AI tools: Chatbot, Image Generation, Music Generation, Video Generation, and Code Generation.
 
-**🛠️ Building with Advanced Technologies**
-Beyond the core functionalities, we’ll embark on an instructive journey of building our SaaS application using a rich palette of web development technologies:
+## 🔧 Next.js 14 App Router: A Game-Changer
 
-**React**
-**Tailwind**
-**Prisma**
-**MySQL**
-**Clerk**
+IMAGINAI is built using Next.js 14, integrating Stripe for seamless billing, harnessing the power of OpenAI and ReplicateAI for AI functionalities, and utilizing Crisp for customer engagement, Aiven for robust data infrastructure, and Prisma for efficient database management.
+
+## 🛠️ Building with Advanced Technologies
+
+In addition to its powerful core functionalities, IMAGINAI leverages a rich palette of web development technologies:
+
+- React
+- Tailwind CSS
+- Prisma
+- MySQL
+- Clerk
 
 # Features
 
-- **Tailwind Design**: Sleek, modern design using Tailwind CSS
-- **Tailwind Animations and Effects**: Smooth animations and effects with Tailwind CSS
-- **Full Responsiveness**: Optimized for all devices
-- **Clerk Authentication**: Supports email, Google, and 9+ social logins
-- **Client-Side Form Validation and Handling**: Implemented with react-hook-form
-- **Server-Side Error Handling**: Managed with react-toast
-- **Image Generation Tool**: Powered by OpenAI
-- **Video Generation Tool**: Powered by Replicate AI
-- **Conversation Generation Tool**: Powered by OpenAI
-- **Music Generation Tool**: Powered by Replicate AI
-- **Page Loading State**: Visual indicators for page loading
-- **Stripe Monthly Subscription**: Integrated for seamless payments
-- **Free Tier with API Limiting**: Limited access for free users
-- **Route Handlers for API Requests**: Writing POST, DELETE, and GET routes in app/api
-- **Direct Database Access in Server Components**: Fetch data without using APIs
-- **Handling Parent-Child Component Relations**: Efficiently manage component relationships
-- **Next.js 13 App Router Structure**: Organized folder structure
-- **Reusable Layouts**: Consistent, reusable layouts across the application
+- **Tailwind Design**: Sleek, modern UI design using Tailwind CSS
+- **Tailwind Animations and Effects**: Smooth animations and effects enhanced with Tailwind CSS
+- **Full Responsiveness**: Optimized for seamless user experience across all devices
+- **Clerk Authentication**: Supports authentication via email, Google, and 9+ social logins
+- **Client-Side Form Validation and Handling**: Implemented using react-hook-form for efficient form management
+- **Server-Side Error Handling**: Utilizes react-toast for effective error management
+- **Image Generation Tool**: Empowered by OpenAI for generating images
+- **Video Generation Tool**: Utilizes Replicate AI for creating videos
+- **Conversation Generation Tool**: Powered by OpenAI for generating natural language conversations
+- **Music Generation Tool**: Empowered by Replicate AI for generating music compositions
+- **Page Loading State**: Provides visual indicators for loading states
+- **Stripe Monthly Subscription**: Integrated for seamless payment processing
+- **Free Tier with API Limiting**: Offers a limited-access free tier for users
+- **Route Handlers for API Requests**: Implements POST, DELETE, and GET routes in app/api for robust API functionality
+- **Direct Database Access in Server Components**: Fetches data directly from the database without APIs
+- **Handling Parent-Child Component Relations**: Efficient management of component relationships
+- **Next.js 13 App Router Structure**: Organized folder structure for clarity and scalability
+- **Reusable Layouts**: Consistent and reusable layouts enhance user interface consistency
 
 # Getting Started
 
-1. **Ensure Requirements**: Verify that Git and NodeJS (18.x.x) are installed on your system.
+To get started with IMAGINAI, follow these steps:
+
+1. **Ensure Requirements**: Verify that Git and NodeJS (version 18.x.x) are installed on your system.
 2. **Clone the Repository**: Clone this repository to your local machine.
    ```sh
    git clone https://github.com/aftabrehan/jarvis-ai.git
    ```
-3. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the following contents:
-
-   ```env
-   # Disable Next.js telemetry
-   NEXT_TELEMETRY_DISABLED=1
-
-   # Clerk API keys
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-   CLERK_SECRET_KEY=sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-   # Clerk redirect URIs
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-
-   # OpenAI API key
-   OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-   # Replicate API token
-   REPLICATE_API_TOKEN=r8_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-   # Database URL (PlanetScale/Aiven)
-   DATABASE_URL="mysql://<username>:<password>@<host>:<port>/<database_name>?ssl-mode=REQUIRED"
-
-   # Stripe API and webhook secret keys
-   STRIPE_API_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-   STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-   # App base URL
-   NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-   # Crisp website ID
-   NEXT_PUBLIC_CRISP_WEBSITE_ID=xxxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx
+3. **Set Up Environment Variables**: Create a `.env` file in the root directory and add the necessary environment variables as shown in the example above.
+   
+4. **Install Dependencies**: Open a terminal in the root directory of the project and run:
+   ```sh
+   npm install --legacy-peer-deps
+   # or
+   yarn install --legacy-peer-deps
    ```
-   Open terminal in root directory. Run npm install --legacy-peer-deps or yarn install --legacy-peer-deps.
-Setup Prisma by adding MySQL Database (PlanetScale/Aiven). Run npx prisma db push or yarn prisma db push to push the queries in the database.
-Now, the app is fully configured 👍, and you can start using this app with either npm run dev or yarn dev.
-
+   
+5. **Setup Prisma Database**: Configure your MySQL database using Prisma. Run the following command in the terminal:
+   ```sh
+   npx prisma db push
+   # or
+   yarn prisma db push
+   ```
+   
+6. **Start the Application**: After completing the above steps, start the application by running:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+   
+Now you're all set to explore and utilize the powerful capabilities of IMAGINAI! 🌟
